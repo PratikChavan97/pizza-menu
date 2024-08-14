@@ -25,3 +25,4 @@
 
 10. check available commits
     cmd: git log
+
