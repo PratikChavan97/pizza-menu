@@ -1,0 +1,21 @@
+1. Create a repository on github and copy the link.
+2. initialise git in a project folder
+    cmd: git init
+
+3. Add remote to git repository.
+    cmd: git remote add origin <URL>
+
+4. if already present, check the remote origin.
+    cmd: git remote -v
+
+5. set branch
+    cmd: git branch -M main
+
+6. check current working branch (Commit is required)
+    cmd: git branch
+
+7. to check the status of current working directory
+    cmd: git status (unstaged, modified, staged, stash)  (stage: header attach, stash: recycle bin, header not attached)
+
+8. stage the documents 
+    cmd: git add . / git add --a / git add -A
