@@ -38,3 +38,6 @@
     cmd: git checkout -b <branch> // it will leave current branch without saving and create a new branch simultaneously
     cmd: git branch <branch>.
 >>>>>>> update
+
+13. merge two branches:
+    cmd: git merge <branch to add> // 
