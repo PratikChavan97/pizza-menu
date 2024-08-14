@@ -19,3 +19,9 @@
 
 8. stage the documents 
     cmd: git add . / git add --a / git add -A
+
+9. Commit the directory
+    cmd: git commit -m "Message"
+
+10. check available commits
+    cmd: git log
