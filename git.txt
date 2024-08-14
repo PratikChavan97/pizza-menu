@@ -23,7 +23,7 @@
 
 9. Commit the directory
     cmd: git commit -m "Message"
-    cmd: git commit -a -m "Message" // add and commit 
+    cmd: git commit -a -m "Message" // add and commit (after first commit)
 
 10. check available commits
     cmd: git log
