@@ -16,13 +16,25 @@
 
 7. to check the status of current working directory
     cmd: git status (unstaged, modified, staged, stash)  (stage: header attach, stash: recycle bin, header not attached)
+    cmd: git status -s // file action fileName
 
 8. stage the documents 
     cmd: git add . / git add --a / git add -A
 
 9. Commit the directory
     cmd: git commit -m "Message"
+    cmd: git commit -a -m "Message" // add and commit (after first commit)
 
 10. check available commits
     cmd: git log
 
+<<<<<<< HEAD
+=======
+11. first time push
+    cmd: git branch -u origin main === git --set-upstream origin main
+    cmd: git push origin <branch> === git push
+
+12. to create a new branch, locally:
+    cmd: git checkout -b <branch> // it will leave current branch without saving and create a new branch simultaneously
+    cmd: git branch <branch>.
+>>>>>>> update
