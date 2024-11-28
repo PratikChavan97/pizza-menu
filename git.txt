@@ -31,7 +31,7 @@
 <<<<<<< HEAD
 =======
 11. first time push
-    cmd: git branch -u origin main === git --set-upstream origin main
+    cmd: git push -u origin main === git push --set-upstream origin main
     cmd: git push origin <branch> === git push
 
 12. to create a new branch, locally:
